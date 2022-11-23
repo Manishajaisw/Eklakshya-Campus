@@ -20,8 +20,8 @@
 </head>
 
 <body>
-  <!--nav bar start-->
-  <nav class="navbar navbar-expand-lg bg-dark text-white fixed-top">
+  <!--Navigation start-->
+  <nav class="navbar navbar-expand-lg backcolour text-white fixed-top">
     <div class="container text-white">
       <img src="Eklakshya logo.png" alt="logo" srcset="" height="70px" width="80px">
       <button class="navbar-toggler btn btn-light bg-light" type="button " data-bs-toggle="collapse"
@@ -33,7 +33,7 @@
         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll text-white">
           <li class="">
             <a href="index.html" class="nav-link">
-              <span class="text-white">&nbsp;&nbsp;&nbsp;&nbsp; <b>Home</b> &nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="text-white">&nbsp;&nbsp;&nbsp;&nbsp; <b>HOME</b> &nbsp;&nbsp;&nbsp;&nbsp;
             </a>
             </span>
           </li>
@@ -67,13 +67,15 @@
         </ul>
         <form class="d-flex" role="search">
           <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">-->
-          <button class=" text-white" type="submit" style="background-color: rgb(243, 119, 208);"> <b><a href="contact.html" class="nav-link">CONTACT
-              NOW</a></b> </button>
+          <button class=" text-white radious" type="submit" style="background-color: rgb(219, 99, 62);"> <b><a href="contact.html" class="nav-link">CONTACT NOW</a></b>
+          </button>
         </form>
       </div>
     </div>
   </nav>
-  <!--nav bar end-->
+
+  <!--Navigation end-->
+
 
   <!--crousel section start-->
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -84,7 +86,7 @@
     </ol>
     <div class="carousel-inner">
       <div>
-        <div class="carousel-item" style="width: 500px;">
+        <div class="carousel-item" style="height: 500px;">
           <img src="Example.jpg">
         </div>
       </div>
@@ -105,9 +107,8 @@
         <div class="carousel-caption  d-md-block">
 
           <!--button section start-->
-          <button type="button" class="btn btn-danger btn-rounded" "text-center"
-            style="background-color:blue ;">Contact-Us</button>
-          <button type="button" class="btn btn-danger btn-rounded" style="background-color: blue ;">Whatsapp</button>
+          <button type="button" class="btncol "><a href="contact.html" class="nav-link">Contact-Us</a></button>
+          <button type="button" class="btncol">Whatsapp</button>
           <!--button section end-->
         </div>
       </div>
@@ -137,13 +138,13 @@
   <!--button section start-->
   <p> </p>
   <div class="container center">
-    <button type="button" class="btn btn-danger" style="width: 250px; ;">Download</button>
-    <br>
-    <p> </p>
-    <button type="button" class="btn btn-danger" style="width: 250px; ;">Download</button>
+    <a href="demo.pdf" target="_blank">
+    <button type="button" class="btn btn-danger radious1" style="width: 250px; ;">SHOW PROSPECTUS
+    </button></a>
+    <br></br>
     <!--button section end-->
     <p> </p>
-    <h3 class="font-weight-bold">ABOUT एकलक्ष्य कैम्पस</h3>
+    <h3 class="font-weight bold">ABOUT एकलक्ष्य कैम्पस</h3>
     <p class="shadow-lg">पकड़ीदयाल अनुमंडलीय क्षेत्र में पहली बार एक ही छत के नीचे सभी प्रतिष्ठित सरकारी नौकरी की तैयारी
       जैसे- UPSC, BPSC, Bihar SI, Police, SSC, Railway, Banking Defence, Army, Navy, Airforce, Militry, Paramilitry,TET
       & Other Exams की सुविधा उपलब्ध है| </p>
@@ -159,7 +160,7 @@
             <!--First card start-->
             <div class="col-lg-3">
               <div class="card">
-                <img src="Founder2 .jpeg" class="card-img-top" alt="...">
+                <img src="Founder2 .jpeg" class="text" center class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Founder</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -220,32 +221,44 @@
   <!--crousel section end-->
   <p> </p>
   <!--Video section start-->
-  <h2 class="text-center" "bold">Visit Our Channel</h2>
+ <h2 class="text-center bold" >Visit Our Channel</h2>
   <p> </p>
-  <div class="container text-center">
+  
+  <div class="container-fluid text-center">
     <div class="row">
-      <div class="col" style="background-color:white;">
-        <video class="hide" id="myVideo" height="200px" width="100%" controls autoplay muted>
+
+      <div class="col-md-6 col-sm-6 bg-info" style="background-color:white;">
+        <video class="hide" id="myVideo" height="300px" width="100%" controls autoplay muted>
           <source src="Freedcamp Task Training.mov" type="video/mp4">
         </video>
       </div>
-      <div class="col" style="background-color: white;">
-        <video class="hide" id="myVideo" height="200px" width="100%" controls autoplay muted>
+
+      <div class="col-md-6 col-sm-6 bg-secondary" style="background-color: white;">
+        <video class="hide" id="myVideo" height="300px" width="100%" controls autoplay muted>
           <source src="Freedcamp Task Training.mov" type="video/mp4">
         </video>
       </div>
-      <div class="col" style="background-color: white;">
-        <video class="hide" id="myVideo" height="200px" width="100%" controls autoplay muted>
-          <source src="Freedcamp Task Training.mov" type="video/mp4">
-        </video>
-      </div>
-    </div>
+
+     </div>
   </div>
-  <!--Video section start-->
+
+
+  <!-- <h2 class="text-center bold" >Visit Our Channel</h2>
+  <div class="container">
+    <video class="hide" id="myVideo" height="300px" width="100%" controls autoplay muted>
+      <source src="Freedcamp Task Training.mov" type="video/mp4">
+    </video>
+  </div>
+  <div class="container">
+    <video class="hide" id="myVideo" height="300px" width="100%" controls autoplay muted>
+      <source src="Freedcamp Task Training.mov" type="video/mp4">
+    </video>
+  </div>
+  <!--Video section end-->
   <p> </p>
   <p> </p>
-  <h2 class="text-center" "bold">Our Reviews from Students</h2>
-  <p> </p>
+  <h2 class="text-center bold">Our Reviews from Students</h2>
+  <p> </p> -->
 
   <!--Crousel card section start-->
 
@@ -351,17 +364,17 @@
   <!--crousel card section end-->
   <br>
   <!--Address section start-->
-  <h1 class="text-center" "font">How to Find our Institute</h1>
-  <div class="container-fluid">
+  <h1 class="text-center font">How to Find our Institute</h1>
+  <div class="container-fluid color">
     <div class="row">
-      <div class="col-md-5">
-        <div class="alignLeft">
+      <div class="col-sm-5 col-md-5">
+        <div class="alignLeft ">
           <h5> <i class="fa-solid fa-location-pin"></i>Address</h5>
-          <p>Prakash Vatika, 1st Floor, Dhaka Road Nahar Pakridayal, East Champaran(Bihar)845428</p>
+          <p>Prakash Vatika, 1st Floor, Dhaka Road Nahar Pakridayal, <br> East Champaran(Bihar)845428</p>
           <h5><i class="fa-solid fa-phone"></i>Call</h5>
           <p>+9472227054</p>
           <h5> <i class="fa-regular fa-envelope"></i>Email Address</h5>
-          <p>contact@ctrlfsystems.com</p>
+          <p>contact@stems.com</p>
           <h5><i class="fa-solid fa-clock"></i>Class Timing</h5>
           <p>UPSC & BPSC - <u>07 am - 09 am</u>
           <p>English Spoken - <u>08 am - 09 am</p></u>
@@ -386,9 +399,8 @@
     </div>
   </div>
   <!--Address section end-->
-
   <!-- Footer section start -->
-  <div class="col-sm-15" style="background-color:rgb(9, 132, 138);">
+  <div class="col-sm-12" style="background-color: rgb(78, 129, 240);">
     <!-- Grid container -->
     <div class="container p-4">
       <!-- Section: Social media -->
@@ -409,7 +421,7 @@
               <!--Grid row-->
               <div class="row">
                 <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-4 col-md-4 mb-4 mb-md-0 text-center">
                   <h2 class="text-uppercase">एकलक्ष्य कैम्पस</h2>
                   <p class="fs-5">पकड़ीदयाल अनुमंडलीय क्षेत्र में पहली बार एक ही छत के नीचे सभी प्रतिष्ठित सरकारी नौकरी
                     की तैयारी
@@ -419,26 +431,26 @@
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col">
+                <div class="col-lg-4 col-md-4 mb-4 mb-md-0 text-center">
 
                   <h4>FOOTER MENU</h4>
                   <p> </p>
                   <li><a href="" style="color:black ;">HOME</a></li>
-                  <li><a href="" style="color:black ;">ABOUT US</a></li>
+                  <li><a href="" style="color:black ;">ABOUT Us</a></li>
                   <li><a href="" style="color:black ;">COURSES</a></li>
                   <li><a href="" style="color:black ;">GALLERY</a></li>
-                  <li><a href="" style="color:black ;">CONTACT-US</a></li>
+                  <li><a href="" style="color:black ;">Contact-Us</a></li>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-4 col-md-4 mb-4 mb-md-0 text-center">
                   <h5 class="text-uppercase">CONNECT WITH US</h5>
                   <a href="https://www.facebook.com/PrakashVatikaPakridayal">
                     <a class="btn btn-primary" style="background-color: #3b5998; " href="#!" role="button"><i
                         class="fa-brands fa-facebook fa-1x" style="width: 100px; ;"></i></a>
                   </a>
-                 <!-- <a href="">
+                  <!-- <a href="">
                     <i class="fa-brands fa-youtube fa-2x" style="color:red ;"></i>
                   </a>
                   <a href="">
@@ -449,7 +461,7 @@
                   </a>-->
                   <br><br>
                   <h5><i class="fa-solid fa-phone"></i>Call</h5>
-                   <p>+9472227054</p>
+                  <p>+9472227054</p>
                   <h5> <i class="fa-regular fa-envelope"></i>Email Address</h5>
                   <p>contact@ctrlfsystems.com</p>
 
@@ -457,15 +469,7 @@
                 </div>
                 <!--Grid column-->
 
-                <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase">SEARCH</h5>
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
-                      title="Search for posts">
-
-                </div>
-                <!--Grid column-->
+               
               </div>
               <!--Grid row-->
             </section>
